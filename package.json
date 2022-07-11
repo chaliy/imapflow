@@ -3,6 +3,7 @@
     "version": "1.0.100",
     "description": "IMAP Client for Node",
     "main": "./lib/imap-flow.js",
+    "types": "./types",
     "scripts": {
         "test": "grunt",
         "prepare": "npm run build",
@@ -40,7 +41,7 @@
         "grunt-cli": "1.4.3",
         "grunt-contrib-nodeunit": "4.0.0",
         "grunt-eslint": "24.0.0",
-        "jsdoc": "3.6.10",
+        "jsdoc": "^3.6.10",
         "st": "3.0.0",
         "tsd-jsdoc": "2.5.0"
     },
